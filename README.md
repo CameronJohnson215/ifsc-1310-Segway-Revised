@@ -1,1 +1,1 @@
-# ifsc-1310-Segway-Revised
+# ifsc-1310-Segway.github.io

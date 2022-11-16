@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.NavLinks{
+    flex: 1;
+    text-align: right;
+}
+.NavLinks ul li{
+    padding: 8px 12px;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.NavLinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+.NavLinks ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    transition: 0.5s;
+    background: #f44336;
+    display: block;
+   
+}
+.NavLinks ul li:hover::after{
+    width: 100%;
+}
+.slogan{
+    width: 90%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.slogan h1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.linkx{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 40px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.linkx:hover{
+    border: 1px solid #fff3f3;
+    background: #f44336;
+    transition: 1s;
+}
+.concept{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+
+}
+p{
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.whatiscentaur{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h4{
+    text-align: center;
+    font-weight: 600px;
+    margin: 10px 0;
+    color: black;
+}
+.whatiscentaur:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.whatiscentaur2{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.whatiscentaur2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.concept2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.centaurimg{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.centaurimgl{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.centaurimgl img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+
+}
+.layer h4{
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+}
+.layer:hover h4{
+    opacity: 1;
+    bottom: 50%;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa-brands{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(6.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+.sub-header h1{
+    margin-top: 20px;
+}
+.aboutus{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.aboutcl{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.aboutcl h1{
+padding-top: 0;
+}
+.aboutcl p{
+    padding: 15px 0 25px;
+}
+.explbtn{
+    border: 1px solid black;
+    background: transparent;
+    color:black;
+}
+.explbtn:hover{
+    color: white;
+}
+.icons a{
+    text-decoration: none;
+}
+.subsub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(centaur.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
