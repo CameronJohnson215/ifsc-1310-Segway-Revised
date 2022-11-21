@@ -115,8 +115,9 @@ p{
 h4{
     text-align: center;
     font-weight: 600px;
-    margin: 10px 0;
+    margin: 10px 0px;
     color: black;
+    padding-top: 40px;
 }
 .whatiscentaur:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -254,4 +255,90 @@ padding-top: 0;
     text-align: center;
     color: white;
 
+}
+body{
+    overflow-x: hidden;
+}
+.section-container{
+    --bs-gutter-x:1.5rem;
+    --bs-gutter-y:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right:calc(var(--bs-gutter-x)/ 2);
+    margin-left:calc(var(--bs-gutter-x)/ 2);
+}
+
+.section-container .columns{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.section-container .columns.image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-container .columns.content .content-container{
+    padding: 40px 50px;
+
+}
+.section-container .columns.content .content-container h5{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.section-container .columns.content .content-container p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+
+}
+.cont1{
+    margin: auto;
+    padding-top: 50px;
+}
+
+.section-container1{
+    --bs-gutter-x:1.5rem;
+    --bs-gutter-y:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right:calc(var(--bs-gutter-x)/ 2);
+    margin-left:calc(var(--bs-gutter-x)/ 2);
+}
+
+.section-container1 .columns1{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.section-container1 .columns1.image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-container1 .columns1.content .content-container1{
+    padding: 40px 50px;
+
+}
+.section-container1 .columns1.content .content-container1 h5{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.section-container1 .columns1.content .content-container1 p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+
+}
+.cont2{
+    margin: auto;
+    padding-top: 50px;
 }
